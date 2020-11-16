@@ -18,6 +18,8 @@ export default class App extends Component {
         <Text>Iniciando Mines!</Text>
         <Text>Tamanho da grade: {params.getRowsAmount()}x{params.getColumnsAmount()}</Text>
         <Field />
+        <Field opened />
+        <Field opened nearMines={1}/>
       </SafeAreaView>
     );
   }
