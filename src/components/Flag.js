@@ -57,8 +57,8 @@ const styles =  StyleSheet.create({
         marginLeft: 3
     },
     base1Bigger: {
-        height: 1,
-        width: 22, 
+        height: 4,
+        width: 12, 
         marginTop: 20,
         marginLeft: 12
     },
