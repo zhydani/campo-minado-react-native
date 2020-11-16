@@ -23,7 +23,7 @@ export default class App extends Component {
     return (
       <SafeAreaView style={styles.container}>
         <Text>Iniciando Mines!</Text>
-        <Text>Tamanho da grade: {params.getRowsAmount()}x{params.getColumnsAmount}</Text>
+        <Text>Tamanho da grade: {params.getRowsAmount()}x{params.getColumnsAmount()}</Text>
       </SafeAreaView>
     );
   }
