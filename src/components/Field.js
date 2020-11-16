@@ -23,7 +23,7 @@ const Field = props => {
     }
 
     return (
-        <TouchableWithoutFeedback onPress={props.onOpen}>
+        <TouchableWithoutFeedback onPress={props.onOpen} onLongPress={props.onSelect}>
             <View style={styleField}>
                 {/* estar minado, aberto ou quantidade de minas maior que 0 */}
                 {
