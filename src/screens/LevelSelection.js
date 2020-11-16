@@ -44,6 +44,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold'
     },
     button: {
+        width: '40%',
         marginTop: 10, 
         padding: 5
     },
