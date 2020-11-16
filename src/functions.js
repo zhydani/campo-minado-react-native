@@ -1,5 +1,5 @@
-const { parse } = require("@babel/core")
-const { default: params } = require("./params")
+// const { parse } = require("@babel/core")
+// const { default: params } = require("./params")
 
 // criando uma matriz de objetos com todas as funcoes definidas na lógica do jogo
 const createBoard = (rows, columns) => {
